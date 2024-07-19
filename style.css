@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Shabnam;
+  src: url("./fonts/Shabnam-FD.woff2") format("woff2");
+}
+body {
+  background: #dcdcdc;
+  margin-top: 20px;
+  font-family: "Shabnam";
+}
+.card-box {
+  padding: 20px;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px black;
+}
+.thumb-lg {
+  height: 88px;
+  width: 88px;
+}
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+h4 {
+  line-height: 22px;
+  font-size: 18px;
+}
+.name {
+  font-weight: bold;
+}
+.page-link {
+  color: gray;
+}
